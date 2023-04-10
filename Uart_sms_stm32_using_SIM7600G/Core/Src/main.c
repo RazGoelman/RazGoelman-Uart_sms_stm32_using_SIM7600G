@@ -32,7 +32,8 @@
 //##############################################################################################################
 #include <stdio.h>
 #include <string.h>
-/* USER CODE END Includes */
+#include <stdlib.h>
+ /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
