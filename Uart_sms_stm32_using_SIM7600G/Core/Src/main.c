@@ -132,7 +132,7 @@ int main(void)
       memset(buffer,0,sizeof(buffer));
       HAL_Delay(4000);
   /* USER CODE END 2 */
-
+  //TODO: ADD CONTROL SMS
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
