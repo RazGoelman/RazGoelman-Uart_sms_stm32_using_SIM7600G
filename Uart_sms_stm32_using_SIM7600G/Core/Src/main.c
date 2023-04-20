@@ -22,13 +22,14 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 //##############################################################################################################
-// SIM7600 comes in different version. The one I am using is SIM7600G (Global) that can work with many bands.
-//I checked here in Australia with two different providers (Telstra and Vodafone).
-//Both sim cards worked fine.
-//The pin outs are quite simple. Connect four pins VCC,GND,UART(RX) and UART(TX), it will just work.
-//This module includes proper power regulator, so we can connect 5V to the V pin.
-//Also the TX/RX serial communication already includes necessary 3.3V level shifter.
-//So we can connect to 3.3V ESP or STM microcontroller directly.
+//!SIM7600 comes in different version. The one I am using is SIM7600G (Global) that can work with many bands.
+//!I checked here in Australia with two different providers (Telstra and Vodafone).
+//!Both sim cards worked fine.
+//!The pin outs are quite simple. Connect four pins VCC,GND,UART(RX) and UART(TX), it will just work.
+//!This module includes proper power regulator, so we can connect 5V to the V pin.
+//!Also the TX/RX serial communication already includes necessary 3.3V level shifter.
+//!So we can connect to 3.3V ESP or STM microcontroller directly.
+//! add better comments color
 //##############################################################################################################
 #include <stdio.h>
 #include <string.h>
